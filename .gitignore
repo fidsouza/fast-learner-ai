@@ -1,0 +1,321 @@
+# ==============================================
+# SECURITY & SECRETS - NEVER COMMIT THESE!
+# ==============================================
+
+# Environment files with secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+*.env
+.env.*
+!.env.example
+!.env.*.example
+
+# API Keys and secrets
+**/api-keys/
+**/secrets/
+**/.secrets/
+*api-key*
+*secret*
+*credential*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cert
+*.cer
+config.json
+secrets.json
+credentials.json
+
+# OpenAI and other service keys
+openai.key
+openai-api-key
+OPENAI_API_KEY
+**/openai/**/*.key
+
+# Database credentials
+database.json
+db-config.json
+supabase-key
+supabase-secret
+
+# Cloud provider credentials
+aws-credentials
+gcp-credentials
+azure-credentials
+.aws/
+.gcp/
+.azure/
+
+# ==============================================
+# NODE.JS & NPM
+# ==============================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# ==============================================
+# REACT & FRONTEND BUILD FILES
+# ==============================================
+
+# Production builds
+build/
+dist/
+
+# Static files that might contain sensitive data
+public/config.js
+public/env.js
+
+# Source maps (may contain sensitive info)
+*.map
+
+# ==============================================
+# BACKEND & DATABASE
+# ==============================================
+
+# Compiled TypeScript
+dist/
+build/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Log files
+logs/
+*.log
+
+# ==============================================
+# DOCKER & DEPLOYMENT
+# ==============================================
+
+# Docker files that might contain secrets
+docker-compose.override.yml
+docker-compose.production.yml
+Dockerfile.production
+
+# Kubernetes secrets
+**/k8s/**/*secret*.yaml
+**/k8s/**/*secret*.yml
+
+# Deployment scripts with secrets
+deploy-production.sh
+
+# ==============================================
+# IDE & EDITOR FILES
+# ==============================================
+
+# VSCode
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==============================================
+# OPERATING SYSTEM FILES
+# ==============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==============================================
+# MISCELLANEOUS
+# ==============================================
+
+# Backup files
+*.backup
+*.bak
+*.swp
+*.tmp
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Generated documentation
+docs/build/
+
+# Test artifacts
+coverage/
+test-results/
+junit.xml
+
+# Cache directories
+.cache/
+.tmp/
+
+# ==============================================
+# PROJECT SPECIFIC
+# ==============================================
+
+# Audio files that might be large or temporary
+uploads/
+audio-temp/
+*.wav
+*.mp3
+*.m4a
+
+# Generated lesson content that might contain API responses
+lesson-cache/
+ai-generated/
+
+# Session storage files
+session-data/
+
+# User uploaded content
+user-uploads/
+
+# Claude AI assistant files
+.claude/

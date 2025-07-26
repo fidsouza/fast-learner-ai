@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Vocabulary highlighting styles */
+.vocabulary-highlight {
+  cursor: pointer !important;
+}
+
+.vocabulary-highlight:hover {
+  cursor: pointer !important;
+}
+
+/* Force cursor for all elements inside lesson text that have vocabulary-highlight class */
+[data-lesson-text] .vocabulary-highlight {
+  cursor: pointer !important;
+}
+
+[data-lesson-text] .vocabulary-highlight:hover {
+  cursor: pointer !important;
+}
+
+/* Override any text selection cursor */
+[data-lesson-text] .vocabulary-highlight * {
+  cursor: pointer !important;
+}
+
+/* Additional specificity to override Tailwind */
+.vocabulary-highlight,
+.vocabulary-highlight:hover,
+.vocabulary-highlight:focus,
+.vocabulary-highlight:active {
+  cursor: pointer !important;
+}
+
+/* Prevent user-select from interfering with cursor */
+.vocabulary-highlight {
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
