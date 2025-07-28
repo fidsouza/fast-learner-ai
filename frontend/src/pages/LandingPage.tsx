@@ -61,7 +61,7 @@ export const LandingPage: React.FC = () => {
             </div>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/your-username/fast-learner-ai"
+                href="https://github.com/fidsouza/fast-learner-ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors"
@@ -102,7 +102,7 @@ export const LandingPage: React.FC = () => {
                 {user ? "Go to Dashboard" : "Launch App"}
               </Link>
               <a
-                href="https://github.com/your-username/fast-learner-ai"
+                href="https://github.com/fidsouza/fast-learner-ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 border border-gray-300 text-lg font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl"
@@ -281,7 +281,7 @@ export const LandingPage: React.FC = () => {
                   {user ? "Go to Dashboard" : "Launch App"}
                 </Link>
                 <a
-                  href="https://github.com/your-username/fast-learner-ai"
+                  href="https://github.com/fidsouza/fast-learner-ai"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-gray-400 hover:text-white transition-colors"
@@ -289,7 +289,7 @@ export const LandingPage: React.FC = () => {
                   GitHub Repository
                 </a>
                 <a
-                  href="https://github.com/your-username/fast-learner-ai/blob/main/README.md"
+                  href="https://github.com/fidsouza/fast-learner-ai/blob/main/README.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-gray-400 hover:text-white transition-colors"
